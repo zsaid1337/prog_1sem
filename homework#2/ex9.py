@@ -1,0 +1,10 @@
+o= open('input.txt', 'w')
+n = input()
+o.write(n)
+o.close()
+sum = 0
+sum += (n.count('.') - 3* n.count('...'))
+sum += (n.count('...'))
+sum += (n.count('!')-n.count('?!'))
+sum += (n.count('?')-n.count('!?'))
+print(sum)

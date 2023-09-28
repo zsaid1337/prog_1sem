@@ -1,4 +1,4 @@
-nt(input())
+n = int(input())
 k = list(input())
 for j in range(len(k)//n):
     new = []
